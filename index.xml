@@ -8,6 +8,24 @@
     <language>es-es</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Acerca de</title>
+      <link>/acerca-de/</link>
+      <pubDate>Tue, 25 Jan 2022 23:50:00 -0700</pubDate>
+      
+      <guid>/acerca-de/</guid>
+      <description>El Observatorio de las Migraciones Mesoamericanas (OBMIME) constituye un esfuerzo por analizar sistemáticamente los fenómenos migratorios actuales en la región de Mesoamérica, así como por proveer información a investigadores y al público en general. No hay una definición universal de Mesoamérica, por lo que resulta importante precisar que consideramos que esta región incluye a América Central y a partes de América del Norte. Como Estados Unidos es el principal destino para las personas migrantes de varios de los países que conforman, según nosotros, a Mesoamérica, también lo incluimos en nuestros análisis.</description>
+    </item>
+    
+    <item>
+      <title>Análisis</title>
+      <link>/analisis/</link>
+      <pubDate>Tue, 25 Jan 2022 23:50:00 -0700</pubDate>
+      
+      <guid>/analisis/</guid>
+      <description>Aquí se ubicaran todos los análisis originales realizados por el OBMIME.</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
       <link>/2020/12/01/hello-r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
