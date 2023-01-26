@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/acerca-de/</loc>
-    <lastmod>2022-01-25T23:50:00-07:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2023-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/analisis/</loc>
+    <loc>/post/</loc>
+    <lastmod>2023-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/analisis/uno/</loc>
+    <lastmod>2023-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2023/01/26/uno/</loc>
+    <lastmod>2023-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/acerca-de/</loc>
     <lastmod>2022-01-25T23:50:00-07:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
@@ -14,13 +23,7 @@
     <loc>/2020/12/01/hello-r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
     <loc>/tags/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/categories/r/</loc>
@@ -34,6 +37,12 @@
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/analisis/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/datos/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/2016/12/30/a-plain-markdown-post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>

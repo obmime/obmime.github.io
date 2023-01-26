@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Observatorio de las Migraciones Mesoamericanas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uno</title>
+      <link>/2023/01/26/uno/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/2023/01/26/uno/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hello R Markdown</title>
       <link>/2020/12/01/hello-r-markdown/</link>
