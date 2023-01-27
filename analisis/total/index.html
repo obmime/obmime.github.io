@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.110.0">
+
+
+<title>Total - Observatorio de las Migraciones Mesoamericanas</title>
+<meta property="og:title" content="Total - Observatorio de las Migraciones Mesoamericanas">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/analisis/">Análisis</a></li>
+    
+    <li><a href="/datos/">Datos</a></li>
+    
+    <li><a href="/acerca-de/">Acerca de</a></li>
+    
+    <li><a href="https://github.com/obmime">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/obmime">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+
+    <h1 class="article-title">Total</h1>
+
+    
+
+    <div class="article-content">
+      <h2 id="hola">Hola</h2>
+<p>Esta es una prueba</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(dplyr)
+</span></span></code></pre></div><pre tabindex="0"><code>## 
+## Attaching package: &#39;dplyr&#39;
+</code></pre><pre tabindex="0"><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+</code></pre><pre tabindex="0"><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(ggplot2)
+</span></span><span style="display:flex;"><span>mtcars <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">mutate</span>(mtcars,cyl<span style="color:#f92672">=</span><span style="color:#a6e22e">factor</span>(cyl,ordered<span style="color:#f92672">=</span><span style="color:#66d9ef">TRUE</span>,levels<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">6</span>,<span style="color:#ae81ff">8</span>)))
+</span></span><span style="display:flex;"><span>P <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ggplot</span>(mtcars,<span style="color:#a6e22e">aes</span>(x<span style="color:#f92672">=</span>mpg)) <span style="color:#f92672">+</span> <span style="color:#a6e22e">geom_histogram</span>(binwidth<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">labs</span>(title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Migración total en Mesoamérica&#34;</span>,
+</span></span><span style="display:flex;"><span>       subtitle <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Aeee&#34;</span>,
+</span></span><span style="display:flex;"><span>       caption <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Fuente: SEGOB 2011. \n \n obmime.com&#34;</span>)
+</span></span><span style="display:flex;"><span>P
+</span></span></code></pre></div><img src="/analisis/total/index_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Creado con <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
