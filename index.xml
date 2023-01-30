@@ -6,42 +6,14 @@
     <description>Recent content on Observatorio de las Migraciones Mesoamericanas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 27 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Total</title>
-      <link>/analisis/total/</link>
-      <pubDate>Fri, 27 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/analisis/total/</guid>
-      <description>Hola Esta es una prueba
-library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, union library(ggplot2) mtcars &amp;lt;- mutate(mtcars,cyl=factor(cyl,ordered=TRUE,levels=c(4,6,8))) P &amp;lt;- ggplot(mtcars,aes(x=mpg)) + geom_histogram(binwidth=5) + labs(title = &amp;#34;Migración total en Mesoamérica&amp;#34;, subtitle = &amp;#34;Aeee&amp;#34;, caption = &amp;#34;Fuente: SEGOB 2011. \n \n obmime.com&amp;#34;) P </description>
-    </item>
-    
-    <item>
-      <title>uno</title>
-      <link>/analisis/uno/</link>
-      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/analisis/uno/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uno</title>
-      <link>/2023/01/26/uno/</link>
-      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/2023/01/26/uno/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acerca de</title>
       <link>/acerca-de/</link>
       <pubDate>Tue, 25 Jan 2022 23:50:00 -0700</pubDate>
       
       <guid>/acerca-de/</guid>
-      <description>El Observatorio de las Migraciones Mesoamericanas (OBMIME) constituye un esfuerzo por analizar sistemáticamente los fenómenos migratorios actuales en la región de Mesoamérica, así como por proveer información a investigadores y al público en general. No hay una definición universal de Mesoamérica, por lo que resulta importante precisar que consideramos que esta región incluye a América Central y a partes de América del Norte. Como Estados Unidos es el principal destino para las personas migrantes de varios de los países que conforman, según nosotros, a Mesoamérica, también lo incluimos en nuestros análisis.</description>
+      <description>Este sitio web fue creado mediante la librería blogdown por Diego del Moral. El tema es una bifurcación desde @jrutheiser/hugo-lithium-theme y fue modificado por Yihui Xie.</description>
     </item>
     
     <item>
